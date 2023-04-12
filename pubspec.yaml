@@ -1,0 +1,43 @@
+---
+name: qoute1
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+  fluttertoast: ^8.2.1
+  file_manager: ^1.0.2
+  permission_handler: ^10.2.0
+  path_provider: ^2.0.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/bool.jpg
+  fonts:
+  - family: Tajawal
+    fonts:
+    - asset: assets/fonts/Tajawal-Black.ttf
+      weight: 900
+    - asset: assets/fonts/Tajawal-ExtraBold.ttf
+      weight: 800
+    - asset: assets/fonts/Tajawal-Bold.ttf
+      weight: 700
+    - asset: assets/fonts/Tajawal-Medium.ttf
+      weight: 500
+    - asset: assets/fonts/Tajawal-Regular.ttf
+      weight: 400
+    - asset: assets/fonts/Tajawal-Light.ttf
+      weight: 300
+    - asset: assets/fonts/Tajawal-ExtraLight.ttf
+      weight: 200
